@@ -1,4 +1,6 @@
 # Transfer-learning-for-EEG
+In this study, we introduced a transefer learning for enhancing the accuracy of motor imagery classification.
+
 ## System dependencies
 - python 3.6+
 - tensorflow  
@@ -6,7 +8,8 @@
 
 ## Introduction
 
-## Data pre-processing
+## Dataset
+
 
 ## Train
 
