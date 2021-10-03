@@ -1,5 +1,5 @@
 # Transfer-learning-for-EEG
-In this study, we introduced a transefer learning for enhancing the accuracy of motor imagery classification.
+In this study, we can improve EEGNet accuracy by Transfer Learning.
 
 ## System dependencies
 - python 3.6+
@@ -10,17 +10,15 @@ In this study, we introduced a transefer learning for enhancing the accuracy of 
 
 ## Project Architecture
     .
-    ├── data_generator              # dataset generator 
-    |   ├── pre_data_generator.py   # data genertor for pre-train phase
-    |   └── meta_data_generator.py  # data genertor for meta-train phase
+    ├── data_generator              # dataset generator
+    |   └── data_preprocessing.py   # data genertor for target and source data
     ├── models                      # tensorflow model files 
-    |   ├── resnet12.py             # resnet12 class
-    |   ├── resnet18.py             # resnet18 class
-    |   ├── pre_model.py            # pre-train model class
-    |   └── meta_model.py           # meta-train model class
+    |   ├── EEGNet.py               # EEGNet
+    |   └── MI_EEGNet.py            # MI_EEGNet
     ├── trainer                     # tensorflow trianer files  
-    |   ├── pre.py                  # pre-train trainer class
-    |   └── meta.py                 # meta-train trainer class
+    |   ├── basic_train.py          # pre-train trainer class
+    |   ├── pretrainin_train.py     # pre-train trainer class
+    |   └── finetuning_train.py     # meta-train trainer class
     ├── utils                       # a series of tools used in this repo
     |   └── misc.py                 # miscellaneous tool functions
     ├── main.py                     # the python file with main function and parameter settings
@@ -29,6 +27,14 @@ In this study, we introduced a transefer learning for enhancing the accuracy of 
 ## Dataset
     python data_processing.py
 
-## Train
+## Baseline
+To compare the performance of Transfer Learning model and Traditional Neural Network, run the
+baseline.py script like this:
+    python baseline.py
+
+
+## Pre_training
+
+## Fine-tuning
 
 ## Results
