@@ -34,6 +34,9 @@ run the `baseline.py` script like this:
     python baseline.py
 
 ## Pre_training
+To pre-train the transformer, run the `pretrainin_train.py` script like this:
+
+    python pretrainin_train.py
 
 ## Fine-tuning
 
