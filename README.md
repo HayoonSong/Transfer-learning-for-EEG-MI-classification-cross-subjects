@@ -30,7 +30,8 @@ In this study, we can improve EEGNet accuracy by Transfer Learning.
 ## Baseline
 To compare the performance of Transfer Learning model and Traditional Neural Network, run the
 baseline.py script like this:
-     python baseline.py
+
+    python baseline.py
 
 ## Pre_training
 
