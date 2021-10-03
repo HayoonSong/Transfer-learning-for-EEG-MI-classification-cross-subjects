@@ -33,7 +33,7 @@ run the `baseline.py` script like this:
 
     python baseline.py
 
-## Pre_training
+## Pre-training
 To pre-train the transformer, run the `pretrainin_train.py` script like this:
 
     python pretraining_train.py
