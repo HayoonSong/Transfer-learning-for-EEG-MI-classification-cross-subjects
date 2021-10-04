@@ -40,4 +40,8 @@ To pre-train the transformer, run the `pretrainin_train.py` script like this:
 
 ## Fine-tuning
 
+
+    python finetuning_train.py
+
+
 ## Results
