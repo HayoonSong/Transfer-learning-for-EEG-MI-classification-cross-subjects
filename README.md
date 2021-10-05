@@ -13,14 +13,12 @@ In this study, we can improve EEGNet accuracy by Transfer Learning.
     ├── data_generator              # dataset generator
     |   └── data_preprocessing.py   # data genertor for target and source data
     ├── models                      # tensorflow model files 
-    |   ├── EEGNet.py               # EEGNet
-    |   └── MI_EEGNet.py            # MI_EEGNet
+    |   └── EEGNet.py               # EEGNet
     ├── trainer                     # tensorflow trianer files  
-    |   ├── basic_train.py          # pre-train trainer class
+    |   ├── baseline_train.py       # baseline trainer class
     |   ├── pretrainin_train.py     # pre-train trainer class
     |   └── finetuning_train.py     # meta-train trainer class
-    ├── utils                       # a series of tools used in this repo
-    |   └── misc.py                 # miscellaneous tool functions
+    ├── utils.py                    # a series of tools used in this repo
     ├── main.py                     # the python file with main function and parameter settings
     └── run_experiment.py           # the script to run the whole experiment
 
@@ -31,7 +29,7 @@ In this study, we can improve EEGNet accuracy by Transfer Learning.
 To compare the performance of Transfer Learning model and Traditional Neural Network,   
 run the `baseline.py` script like this:
 
-    python baseline.py
+    python baseline_train.py
 
 ## Pre-training
 To pre-train the transformer, run the `pretrainin_train.py` script like this:
