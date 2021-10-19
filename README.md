@@ -1,5 +1,6 @@
 # Transfer-learning-for-EEG-motor-imagery-classification-across-subjects
 In this study, we can improve EEGNet accuracy by Transfer Learning.
+![transfer_learning](https://user-images.githubusercontent.com/89344114/137904189-0ee4b9e8-16d4-475e-a746-86a4205c3014.jpg)
 
 ## System dependencies
 - python 3.6+
