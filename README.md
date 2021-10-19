@@ -16,11 +16,9 @@ In this study, we can improve EEGNet accuracy by Transfer Learning.
     |   └── EEGNet.py               # EEGNet
     ├── trainer                     # tensorflow trianer files  
     |   ├── baseline_train.py       # baseline trainer class
-    |   ├── pretraining_train.py     # pre-train trainer class
+    |   ├── pretraining_train.py    # pre-train trainer class
     |   └── finetuning_train.py     # meta-train trainer class
-    ├── utils.py                    # a series of tools used in this repo
-    ├── main.py                     # the python file with main function and parameter settings
-    └── run_experiment.py           # the script to run the whole experiment
+    └── utils.py                    # a series of tools used in this repo
 
 ## Dataset
     python data_processing.py
