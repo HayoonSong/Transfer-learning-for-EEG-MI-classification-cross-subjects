@@ -2,7 +2,8 @@
 In this study, we can improve EEGNet accuracy by Transfer Learning.
 
 # Paper
-Our paper can be doenloaded from the   
+Our paper can be doenloaded from the website.
+- The proposed method   
 <img src=https://user-images.githubusercontent.com/89344114/137904971-efd15815-b3da-461a-9f4c-ecaafb69a29f.jpg width="60%" height="50%"></img>
 
 
