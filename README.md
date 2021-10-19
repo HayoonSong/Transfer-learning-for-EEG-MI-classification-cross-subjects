@@ -1,4 +1,4 @@
-# Transfer-learning-for-EEG
+# Transfer-learning-for-EEG-motor-imagery-classification-across-subjects
 In this study, we can improve EEGNet accuracy by Transfer Learning.
 
 ## System dependencies
