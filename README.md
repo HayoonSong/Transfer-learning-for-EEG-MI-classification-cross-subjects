@@ -6,8 +6,6 @@ In this study, we can improve EEGNet accuracy by Transfer Learning.
 - tensorflow  
 *To use Python3, use pip3 and python3 (or python3.x) accordingly.*
 
-## Introduction
-
 ## Project Architecture
     .
     ├── data_generator              # dataset generator
