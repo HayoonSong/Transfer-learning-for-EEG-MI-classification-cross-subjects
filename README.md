@@ -5,7 +5,6 @@ In this study, we can improve classification accuracy of motor imagery using EEG
 - The proposed method   
 <img src=https://user-images.githubusercontent.com/89344114/137904971-efd15815-b3da-461a-9f4c-ecaafb69a29f.jpg width="60%" height="50%"></img>
 
-
 ## System dependencies
 - python 3.6+
 - tensorflow  
@@ -17,10 +16,11 @@ In this study, we can improve classification accuracy of motor imagery using EEG
     |   └── data_preprocessing.py   # data genertor for target and source data
     ├── models                      # tensorflow model files 
     |   └── EEGNet.py               # EEGNet
-    ├── trainer                     # tensorflow trianer files  
+    ├── trainer                     # tensorflow trianer files
+    |   ├── Train.py                # super trainer class
     |   ├── baseline_train.py       # baseline trainer class
     |   ├── pretraining_train.py    # pre-train trainer class
-    |   └── finetuning_train.py     # meta-train trainer class
+    |   └── finetuning_train.py     # finetuning trainer class
     └── utils.py                    # a series of tools used in this repo
 
 ## Dataset
