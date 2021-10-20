@@ -24,7 +24,7 @@ In this study, we can improve EEGNet accuracy by Transfer Learning.
     └── utils.py                    # a series of tools used in this repo
 
 ## Dataset
-We evaluated our model using [the BCI Compteition IV-2a datasets](http://www.bbci.de/competition/iv/results/index.html) published in 2008.
+We evaluated our model using [the BCI Compteition IV-2a datasets](http://www.bbci.de/competition/iv/results/index.html) published in 2008.   
 The transfer learning introduced the idea of separating total data into two subsets:
 * source data:
 * target data:
