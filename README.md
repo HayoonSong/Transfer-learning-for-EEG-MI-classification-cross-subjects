@@ -26,8 +26,8 @@ In this study, we can improve EEGNet accuracy by Transfer Learning.
 ## Dataset
 We evaluated our model using [the BCI Compteition IV-2a datasets](http://www.bbci.de/competition/iv/results/index.html) published in 2008.
 The transfer learning introduced the idea of separating total data into two subsets:
-    * target data:
-    * source data:
+* source data:
+* target data:
 
 To separate the target data and source data from the combined train data and evaluation data:<br/>
 
