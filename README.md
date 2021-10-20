@@ -1,5 +1,5 @@
 # Transfer-learning-for-EEG-MI-classification-across-subjects
-In this study, we can improve classification accuracy of motor imagery by cross-subject transfer learning. To overcome the lack of subject-specific data, transfer learning-based approaches are increasingly integrated into motor imagery systems using pre-existing information from other subjects (source domain) to facilitate the calibration for a new subject (target domain) through a set of shared features among individuals.
+In this study, we can improve classification accuracy of motor imagery using EEGNet. To overcome the lack of subject-specific data, transfer learning-based approaches are increasingly integrated into motor imagery systems using pre-existing information from other subjects (source domain) to facilitate the calibration for a new subject (target domain) through a set of shared features among individuals(Collazos-Huertas, 2021).
 
 ## Paper
 - The proposed method   
@@ -27,7 +27,7 @@ In this study, we can improve classification accuracy of motor imagery by cross-
 We evaluated our model using [the BCI Compteition IV-2a datasets](http://www.bbci.de/competition/iv/results/index.html) published in 2008.   
 The Cross-subejct transfer learning introduced the idea of separating total data into two subsets:
 * target data: a subject data
-* source data: the other subejcts data
+* source data: the other subejcts data   
 
 To separate the target data and source data from the combined train data and evaluation data:<br/>
 
