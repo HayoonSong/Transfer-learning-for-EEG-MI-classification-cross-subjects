@@ -48,7 +48,7 @@ To pre-train the transformer, run the `pretraining_train.py` script like this:
 
     python trainer/pretraining_train.py \
         --data_dir ../data \
-        --ckpt_dir ../ckpt \
+        --ckpt_dir ../ckpt
 
 ## Fine-tuning
 
