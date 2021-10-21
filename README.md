@@ -14,7 +14,7 @@ In this study, we can improve classification accuracy of motor imagery using EEG
     .
     ├── data_generator              # dataset generator
     |   └── data_preprocessing.py   # data genertor for target and source data
-    ├── models                      # tensorflow model files 
+    ├── model                       # tensorflow model files 
     |   └── EEGNet.py               # EEGNet
     ├── trainer                     # tensorflow trianer files
     |   ├── Train.py                # super trainer class
