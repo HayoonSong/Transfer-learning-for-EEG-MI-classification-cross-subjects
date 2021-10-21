@@ -32,23 +32,29 @@ The Cross-subejct transfer learning introduced the idea of separating total data
 
 To separate the target data and source data from the combined train data and evaluation data:<br/>
 
-    python data_processing.py
+    python data_generator/data_preprocessing.py --data_dir ../data/
 
 ## Baseline
 To compare the performance of Transfer Learning model and Traditional Neural Network,   
 run the `baseline.py` script like this:
 
-    python baseline_train.py
+    python trainer/baseline_train.py \
+        --data_dir ../data \
+        --ckpt_dir ../ckpt \
+        --result_dir ../result
 
 ## Pre-training
-To pre-train the transformer, run the `pretrainin_train.py` script like this:
+To pre-train the transformer, run the `pretraining_train.py` script like this:
 
-    python pretraining_train.py
+    python trainer/pretraining_train.py \
+        --data_dir ../data \
+        --ckpt_dir ../ckpt \
 
 ## Fine-tuning
 
-
-    python finetuning_train.py
-
+    python trainer/finetuning_train.py \
+        --data_dir ../data \
+        --ckpt_dir ../ckpat \
+        --result_dir ../result
 
 ## Results
