@@ -18,9 +18,9 @@ In this study, we can improve classification accuracy of motor imagery using EEG
     |   └── EEGNet.py               # EEGNet
     ├── trainer                     # tensorflow trianer files
     |   ├── Train.py                # super trainer class
-    |   ├── baseline_train.py       # baseline trainer class
-    |   ├── pretraining_train.py    # pre-train trainer class
-    |   └── finetuning_train.py     # finetuning trainer class
+    |   ├── baseline_train.py       # baseline trainer class with EEGNet
+    |   ├── pretraining_train.py    # pre-train trainer class with source data
+    |   └── finetuning_train.py     # finetuning trainer class with pre-trained EEGNet
     └── utils                       # a series of tools used in this repo
         └── utils.py                # utils
 
