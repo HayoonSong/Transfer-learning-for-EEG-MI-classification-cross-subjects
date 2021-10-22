@@ -21,8 +21,7 @@ In this study, we can improve classification accuracy of motor imagery using EEG
     |   ├── baseline_train.py       # baseline trainer class with EEGNet
     |   ├── pretraining_train.py    # pre-train trainer class with source data
     |   └── finetuning_train.py     # finetuning trainer class with pre-trained EEGNet
-    └── utils                       # a series of tools used in this repo
-        └── utils.py                # utils
+    └── utils.py                    # a series of tools used in this repo
 
 ## Dataset
 We evaluated our model using [the BCI Compteition IV-2a datasets](http://www.bbci.de/competition/iv/results/index.html) published in 2008.   
