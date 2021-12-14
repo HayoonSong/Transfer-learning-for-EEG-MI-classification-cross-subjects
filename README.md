@@ -27,7 +27,7 @@ In this study, we can improve classification accuracy of motor imagery using EEG
 To use this codebase, simply clone the Github repository and install the requirements like this:
 
     git clone https://github.com/HayoonSong/Transfer-learning-for-EEG-MI-classification-across-subjects
-    cd Transfer-learning-for-EEG-MI-classification-across-subjects
+    cd Transfer-learning-for-EEG-MI-classification-across-subjects/src
     pip install -r requirements.txt
     
 ## Dataset
