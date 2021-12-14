@@ -65,7 +65,7 @@ To fine-tune the pre-trained transformer, run the `finetuning_train.py` script l
 
     python trainer/finetuning_train.py \
         --data_dir ../data \
-        --ckpt_dir ../ckpat \
+        --ckpt_dir ../ckpt \
         --result_dir ../result
 
 ## Results
