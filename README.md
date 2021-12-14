@@ -22,7 +22,14 @@ In this study, we can improve classification accuracy of motor imagery using EEG
     |   ├── pretraining_train.py    # pre-train trainer class with source data
     |   └── finetuning_train.py     # finetuning trainer class with pre-trained EEGNet
     └── utils.py                    # a series of tools used in this repo
+    
+## Installation
+To use this codebase, simply clone the Github repository and install the requirements like this:
 
+    git clone https://github.com/HayoonSong/Transfer-learning-for-EEG-MI-classification-across-subjects
+    cd Transfer-learning-for-EEG-MI-classification-across-subjects
+    pip install -r requirements.txt
+    
 ## Dataset
 We evaluated our model using [the BCI Compteition IV-2a datasets](http://www.bbci.de/competition/iv/results/index.html) published in 2008.   
 The Cross-subejct transfer learning introduced the idea of separating total data into two subsets:
