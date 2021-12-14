@@ -39,6 +39,10 @@ The Cross-subejct transfer learning introduced the idea of separating total data
 To separate the target data and source data from the combined train data and evaluation data:<br/>
 
     python data_generator/data_preprocessing.py --data_dir ../data/
+    
+## Model
+We use EEGNet
+Original authors have uploaded their code here https://github.com/vlawhern/arl-eegmodels
 
 ## Baseline
 To compare the performance of Transfer Learning model and Traditional Neural Network,   
