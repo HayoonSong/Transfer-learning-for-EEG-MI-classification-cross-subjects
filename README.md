@@ -34,8 +34,8 @@ To use this codebase, simply clone the Github repository and install the require
 ## Dataset
 We evaluated our model using [the BCI Compteition IV-2a datasets](http://www.bbci.de/competition/iv/results/index.html) published in 2008.   
 The Cross-subejct transfer learning introduced the idea of separating total data into two subsets:
-* target data: a subject data
-* source data: the other subejcts data   
+* target domain: a subject data
+* source domain: the other subejcts data   
 
 To separate the target data and source data from the combined train data and evaluation data:<br/>
 
