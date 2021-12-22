@@ -70,3 +70,6 @@ To fine-tune the pre-trained transformer, run the `finetuning_train.py` script l
         --result_dir ../result
 
 ## Results
+<img src=https://user-images.githubusercontent.com/89344114/147038138-3a8cde4c-8501-4866-9e52-137b4837a7e1.png width="60%" height="50%"></img>
+<img src=https://user-images.githubusercontent.com/89344114/147038157-baf8807c-bca5-4737-bb45-c155a0f95cc5.png width="60%" height="50%"></img>
+<img src=https://user-images.githubusercontent.com/89344114/147038162-fc808852-455b-416b-8bbe-60ca5ca11eac.png width="60%" height="50%"></img>
