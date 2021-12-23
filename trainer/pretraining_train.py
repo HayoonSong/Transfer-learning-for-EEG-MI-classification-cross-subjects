@@ -59,7 +59,7 @@ def subject_specific_model():
         make_dir(save_model_dir)
 
         x, y = load_source_data(sub_dir)
-        train_x, test_x, train_y, test_y = train_test_split(x, y, test_size=0.2, random_state=117)
+        train_x, test_x, train_y, test_y = train_test_split(x, y, test_size=0.2, random_state=117, stratify=y)
         trainer = PretrainingTrainer(args, save_model_dir)
         trainer.train(train_x, train_y, test_x, test_y, save_dir=save_model_dir)
         test_x, test_y = trainer.process_data(test_x, test_y)
